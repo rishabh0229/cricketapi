@@ -1,0 +1,30 @@
+{
+  "name": "cricketapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add": "git add .",
+    "commit": "git commit -m 'deploying'",
+    "push": "git push",
+    "deploy": "npm run add && npm run commit && npm run push",
+    "develop": "cross-env ENV=DEVELOP node server",
+    "start": "cross-env ENV=PRODUCTION node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogashri/cricketapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dogashri/cricketapi/issues"
+  },
+  "homepage": "https://github.com/dogashri/cricketapi#readme",
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  }
+}
