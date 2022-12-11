@@ -24,7 +24,7 @@
   "homepage": "https://github.com/dogashri/cricketapi#readme",
   "dependencies": {
     "cross-env": "^6.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.7.12"
   }
 }
